@@ -1,7 +1,7 @@
 CocProxy
 ========
 
-A proxy which can stub certain URL to a local file.
+A proxy which can stub certain URL to a local file / caches every URL access.
 
 Usage
 ===
@@ -9,6 +9,11 @@ Usage
 `gem install 'cocproxy'`
 
 then `cocproxy` to run the proxy. Then point proxy to `0.0.0.0:5432`.
+
+Proxying through CocProxy is really nice to develop spiders/scrapers as **this proxy caches every URL acceess**.
+
+LICENSE
+===
 
 **This is a public-domained project. I gemified this for my convenience. Please note I do not write the codes.**
 
