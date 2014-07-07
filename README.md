@@ -1,6 +1,8 @@
 CocProxy
 ========
 
+[![Gem Version](https://badge.fury.io/rb/cocproxy.svg)](http://badge.fury.io/rb/cocproxy)
+
 A proxy which can stub certain URL to a local file / caches every URL access.
 
 Usage
